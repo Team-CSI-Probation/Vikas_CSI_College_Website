@@ -1,7 +1,8 @@
 
 .logo{
     font-weight: bold;
-    padding-left: 2px;
+    padding-left: 12px;
+    padding-top: 5px;
     font-size: larger;
     
 }
@@ -12,8 +13,8 @@
     padding-left: 5px;
 }
 #abc{
-    padding-top: 2%;
-    padding-right: 20%;
+    padding-top: 3%;
+    padding-right: 12%;
     font-size: 30px;
     font-family: sans-serif;
 
@@ -21,22 +22,67 @@
 
 .para#para{
     line-height: 1.00;
-    padding-left:14px ;
+    padding-left:18px ;
 }
 .nav{
     width:100%;
-    padding-top: 5px;
+    padding: 5px 5px;
+    
 }
 .nav ul li:first-child{
-    flex:1;
-    
+    flex: 0.95;
 }
 .nav ul{
     display: flex;
     list-style: none;
-    color: black;
+
 }
 .nav ul li a{
-    margin-right: 100px;
+    margin-left: 20px;
     font-family: sans-serif;
+    padding-left: 20px;
+}
+#slider{
+    width:95%;
+    height:600px;
+    margin-left: 2.5%;
+}
+.admission{
+    font-family: system-ui;
+    text-align: center;
+     padding-top: 25px;
+    /* padding-left: 2; */ 
+    font-weight:bolder;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: larger;
+}
+
+.navv{
+    width:90%;
+    padding: 5px 5px;
+    margin-bottom: auto;
+    
+}
+
+.navv ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navv ul li a{
+    /* margin-left: 20px; */
+    font-family: sans-serif;
+    /* padding-left: 20px; */
+}
+.Alumuni{
+    padding-top: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: 35px;
 }
