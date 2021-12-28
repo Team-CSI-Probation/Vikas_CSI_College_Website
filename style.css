@@ -144,3 +144,28 @@ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubunt
 word-spacing: 2px;
 font-size: 15px;;
 }
+
+.bottom{
+    height:300px;
+  
+    font-size: 20px;
+    width:100%;
+    color:white;
+    background-color: rgb(26, 24, 24);
+    font-family: serif;
+    
+}
+.location{
+    padding-left: 65px;
+    padding-top: 35px;
+    display: inline-block;
+}
+/* .links{
+    padding-left: 400px;
+    display: inline-block;
+    padding-top: 3;
+    text-align: center;
+}
+.quick{
+    padding-left:440px;
+} */
