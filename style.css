@@ -100,15 +100,7 @@
     color: white;
     
 }
-.Alumuni{
-    padding-top: 18px;
-    text-align: center;
-    letter-spacing: 3px;
-    word-spacing: 2px;
-    font-family: system-ui;
-    font-weight: bolder;
-    font-size: 35px;
-}
+
 
 .navv ul li a:hover{
     color:gray;
@@ -146,8 +138,8 @@ font-size: 15px;;
 }
 
 .bottom{
-    height:300px;
-  
+    height: 330px;;
+    width:100%;
     font-size: 20px;
     width:100%;
     color:white;
@@ -158,14 +150,51 @@ font-size: 15px;;
 .location{
     padding-left: 65px;
     padding-top: 35px;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
+    width: 33.33333%;
+
 }
-/* .links{
-    padding-left: 400px;
-    display: inline-block;
-    padding-top: 3;
-    text-align: center;
-}
+
 .quick{
-    padding-left:440px;
-} */
+    padding-top:35px;
+    float:left;
+    width:33.33333%;
+    
+}
+.quick ul li a{
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.about{
+    padding-top: 35px;
+    
+}
+.about div{
+    padding-top: 35px;;
+}
+
+.Alumuni{
+    margin-top: 58px;
+    width:90%;
+    padding-left: 5%;
+    
+  
+    font-family: system-ui;
+  
+    font-size: 25px;
+}
+
+.A1{
+    width:75%
+     
+
+}
+.A1 img{
+    margin-left:58%;
+    
+}
+
